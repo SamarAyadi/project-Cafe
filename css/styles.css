@@ -8,7 +8,7 @@
 
 html,
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1,
@@ -21,13 +21,20 @@ a {
   color: #333;
   text-decoration: none;
 }
+P {
+  margin-bottom: 10px;
+}
+.my-10{
+margin-top: 10px;
+margin-bottom: 10px;
+}
 
 /* header */
 
 .header {
   background: #333;
   overflow: auto;
-line-height: 1.7em;
+  line-height: 1.7em;
 }
 
 .header nav h1 {
@@ -35,29 +42,77 @@ line-height: 1.7em;
   padding: 20px;
   margin-bottom: 0px;
 }
-.header nav h1 a{
+.header nav h1 a {
   color: white;
 }
 
 .header nav ul {
   list-style: none;
   float: right;
-
 }
 
 .header nav ul li {
   float: left;
 }
-.header nav ul li a{
+.header nav ul li a {
   color: white;
   padding: 20px;
   display: block;
 }
-.header nav ul li a:hover{
+.header nav ul li a:hover {
   background: #444;
 }
-.active{
+.active {
   background: #444;
-                       
 }
 
+/* vp */
+.vp {
+  height: 700px;
+  background: url(../images/frame.jpg) center center / cover;
+  /* background-size: cover;
+  background-position: center center; */
+  text-align: center;
+}
+
+.vp-content {
+  max-width: 500px;
+  padding-top: 170px;
+  color: white;
+  display: block;
+  display: block;
+  margin: auto;
+}
+
+.vp-content h1 {
+  font-size: 47px;
+}
+.separator {
+  height: 10px;
+  background: #111;
+  width: 100px;
+  margin: 20px auto;
+}
+
+.vp-content p {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 1.9em;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 14px;
+}
+.btn-primary {
+  background: white;
+  color: #222;
+}
+
+.btn-primary:hover {
+  background: #222;
+  color: white;
+}
