@@ -12,6 +12,7 @@ body {
   color: #222;
   background: #f5f6fa;
   scroll-behavior: smooth ;
+  text-align: center;
 }
 
 h1,
@@ -24,10 +25,15 @@ a {
   color: #333;
   text-decoration: none;
 }
-P {
+p {
   margin-bottom: 10px;
 }
 .my-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.my-20 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -75,7 +81,7 @@ P {
   background: url(../images/frame.jpg) center center / cover;
   /* background-size: cover;
   background-position: center center; */
-  text-align: center;
+  /* text-align: center; */
 }
 
 .vp-content {
@@ -109,6 +115,8 @@ P {
   border-radius: 30px;
   font-weight: 700;
   font-size: 14px;
+  border: 0;
+  cursor: pointer;
 }
 .btn-primary {
   background: white;
@@ -130,7 +138,7 @@ P {
 .features {
   overflow: auto;
   padding: 100px 0;
-  text-align: center;
+  /* text-align: center; */
 }
 .feature{
   float: left;
@@ -139,4 +147,37 @@ P {
 
 .fa-solid:hover{
   color: #f1c40f;
+}
+
+.person{
+  height: 400px;
+  background: url(../images/person.jpg) center center /cover;
+}
+
+/* reservation */
+.reservation{
+  padding: 100px 0;
+  /* text-align: center; */
+}
+
+.btn-dark{
+  background: #222;
+  color: white;
+}
+
+.btn-dark:hover{
+  background: white;
+  color:#222 ;
+  border: 1px solid #222;
+}
+
+footer {
+  background: #222;
+  color: white;
+  padding: 30px 0;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+}
+footer p {
+  margin-bottom: 0px;
 }
