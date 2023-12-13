@@ -11,7 +11,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #222;
   background: #f5f6fa;
-  scroll-behavior: smooth ;
+  scroll-behavior: smooth;
   text-align: center;
 }
 
@@ -128,7 +128,7 @@ p {
   color: white;
 }
 
-.container{
+.container {
   max-width: 1000px;
   display: block;
   margin: auto;
@@ -140,34 +140,34 @@ p {
   padding: 100px 0;
   /* text-align: center; */
 }
-.feature{
+.feature {
   float: left;
   width: 50%;
 }
 
-.fa-solid:hover{
+.fa-solid:hover {
   color: #f1c40f;
 }
 
-.person{
+.person {
   height: 400px;
-  background: url(../images/person.jpg) center center /cover;
+  background: url(../images/person.jpg) center center / cover;
 }
 
 /* reservation */
-.reservation{
+.reservation {
   padding: 100px 0;
   /* text-align: center; */
 }
 
-.btn-dark{
+.btn-dark {
   background: #222;
   color: white;
 }
 
-.btn-dark:hover{
+.btn-dark:hover {
   background: white;
-  color:#222 ;
+  color: #222;
   border: 1px solid #222;
 }
 
@@ -180,4 +180,42 @@ footer {
 }
 footer p {
   margin-bottom: 0px;
+}
+
+/* where */
+.where {
+  padding: 180px 0;
+  overflow: auto;
+  min-height: 100vh;
+}
+
+.where-img {
+  float: left;
+  width: 45%;
+}
+
+.where-text {
+  float: right;
+  width: 45%;
+}
+
+.underline {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.chip {
+  display: inline-block;
+  width: 30px;
+  border-radius: 100%;
+  background: #333;
+  color: white;
+  text-align: center;
+}
+
+.chip-brown {
+  background:  #6e491e;
+}
+.chip-purple {
+  background:  #a0006e;
 }
